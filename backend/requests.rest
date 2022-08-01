@@ -1,0 +1,9 @@
+GET http://localhost:3010/privates
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImJhYmEiLCJpYXQiOjE2NTkzNzY3MjN9.0flsSjnYNTRO2XWtyqP2xUMOjpcrMObbygAtHBZPZjs
+###
+POST http://localhost:3010/login
+Content-Type: application/json
+
+{
+  "userName" : "baba"
+}
